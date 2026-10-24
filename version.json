@@ -1,0 +1,6 @@
+{
+  "build": "GarageCAM build 0b8a99a, Fri Oct 23 19:16:18 2026 -0700",
+  "date": "2026-10-23T19:16:18-07:00",
+  "notes": "- Verify on every side: jobs with 3+2, 3+1 indexed or 5-axis operations are verified on all sides of the block (side grooves, pockets on the Vortex's faces, undercuts, leaning walls), compared exactly with the part, rapids into material on any side caught, and watchable as the backplot plays.\n- 5-axis 3D paths (Tool Axis page) lean less wherever the asked-for lean would put the flutes, shank or holder into the part, all along each move, and say how many points; checked exactly.\n- Machine simulation tilts the head on head-table and head-head 5-axis machines (pivot set in Machine Definitions), draws a head-table machine's C as a round table, and posting warns when a tilting head needs TCP turned on.\n- Lathe: Drill finds the hole in the part's end, drills to its bottom and offers a drill its size; Turning Verify draws a drill's point; starter tools take the lowest free numbers. Switching a machine definition to Lathe picks the matching lathe post.",
+  "zip": "https://raw.githubusercontent.com/garagecamsupport/garagecam-releases/main/GarageCAM.zip"
+}
