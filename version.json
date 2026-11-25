@@ -1,0 +1,6 @@
+{
+  "build": "GarageCAM 0.1.5 build 486dcf5, Tue Nov 24 17:29:36 2026 -0800",
+  "date": "2026-11-24T17:29:36-08:00",
+  "notes": "Version 0.1.5\n- One way facing can climb: Facing has its own Climb milling box beside its style (it used to cut conventional whatever was set).\n- Dynamic Mill moves between passes keep 0.1 in more than the stock left off the walls, so the micro lift never rubs the stock left for the finish; where there is no room they lift right out. New setting: Keep off the walls, past the stock left. Pocket links round islands do the same.\n- Pockets cut from the walls in climb when set to climb, rings round islands climb too, and a true spiral always runs out from the middle.\n- Chains run through copies of a curve lying over each other, walls that are splines count as walls, an oval stored in two halves chains without an error, and wall and island searches are much faster.",
+  "zip": "https://raw.githubusercontent.com/garagecamsupport/garagecam-releases/main/GarageCAM.zip"
+}
